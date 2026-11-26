@@ -8,4 +8,3 @@ fn is_flag(s: &str) -> bool { s.starts_with('-') }
 
 #[allow(dead_code)]
 fn trim_newlines(s: &str) -> &str { s.trim_end_matches(['\r', '\n']) }
-
